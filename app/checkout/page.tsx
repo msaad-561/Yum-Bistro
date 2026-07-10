@@ -228,19 +228,19 @@ export default function CheckoutPage() {
         </div>
 
         {/* Buttons */}
-        <div className="space-y-4 mb-12">
+        <div className="space-y-3 mb-12">
           <button 
             onClick={handleWhatsAppOrder}
-            className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-heading font-extrabold text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase"
+            className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-heading font-bold text-base tracking-wider py-3.5 rounded-xl transition-colors flex items-center justify-center space-x-2 uppercase shadow-sm"
           >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.011 0C5.385 0 0 5.385 0 12.011c0 2.115.553 4.148 1.583 5.952L.15 23.197l5.358-1.405A11.966 11.966 0 0 0 12.01 24c6.626 0 12.011-5.385 12.011-12.011S18.636 0 12.011 0zm0 22.023c-1.802 0-3.567-.482-5.115-1.401l-.367-.217-3.799.996 1.01-3.702-.238-.378a10.024 10.024 0 0 1-1.527-5.334c0-5.54 4.509-10.048 10.036-10.048 5.54 0 10.048 4.509 10.048 10.048 0 5.54-4.508 10.048-10.048 10.048zm5.542-7.531c-.304-.152-1.794-.886-2.072-.988-.278-.102-.482-.152-.684.152-.203.304-.786.988-.962 1.191-.177.203-.355.228-.659.076-1.464-.73-2.529-1.397-3.486-2.736-.254-.356.126-.33.722-1.523.076-.152.038-.28-.018-.432-.056-.152-.684-1.648-.938-2.256-.247-.594-.498-.514-.684-.524-.178-.009-.381-.01-.584-.01a1.118 1.118 0 0 0-.81.381c-.279.304-1.064 1.04-1.064 2.535 0 1.494 1.089 2.937 1.241 3.14.152.203 2.144 3.27 5.19 4.536 2.052.853 2.76.903 3.666.76.621-.098 1.794-.733 2.047-1.444.253-.711.253-1.318.177-1.444-.076-.127-.278-.203-.582-.355z"/>
             </svg>
             <span>Order via WhatsApp</span>
           </button>
           
-          <a href="tel:03353131204" className="w-full bg-red-600 hover:bg-red-700 text-white font-heading font-extrabold text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase">
-            <Phone size={24} className="fill-current" />
+          <a href="tel:03353131204" className="w-full bg-red-600 hover:bg-red-700 text-white font-heading font-bold text-base tracking-wider py-3.5 rounded-xl transition-colors flex items-center justify-center space-x-2 uppercase shadow-sm">
+            <Phone size={20} className="fill-current" />
             <span>Call: 03353131204</span>
           </a>
         </div>

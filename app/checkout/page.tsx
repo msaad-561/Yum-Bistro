@@ -98,7 +98,7 @@ export default function CheckoutPage() {
 
         {/* Title */}
         <div className="text-center mb-16">
-          <h1 className="font-peace-sans text-5xl tracking-widest text-black mb-6 uppercase inline-block relative">
+          <h1 className="font-heading font-extrabold text-5xl tracking-widest text-black mb-6 uppercase inline-block relative">
             CHECKOUT
             <div className="absolute -bottom-4 left-1/4 right-1/4 h-1 bg-red-600"></div>
           </h1>
@@ -110,7 +110,7 @@ export default function CheckoutPage() {
         {/* Form Details */}
         <div className="mb-12">
           <div className="flex items-center justify-between border-b border-gray-200 pb-4 mb-8">
-            <h2 className="font-peace-sans text-3xl tracking-wider text-black uppercase">INFO</h2>
+            <h2 className="font-heading font-extrabold text-3xl tracking-wider text-black uppercase">INFO</h2>
             <span className="text-gray-500 text-xs font-bold tracking-widest uppercase">REQUIRED</span>
           </div>
 
@@ -195,7 +195,7 @@ export default function CheckoutPage() {
                 </div>
                 <div className="flex-grow flex flex-col justify-center space-y-1">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-peace-sans tracking-wider text-xl text-black uppercase">{item.name}</h3>
+                    <h3 className="font-heading font-extrabold tracking-wider text-xl text-black uppercase">{item.name}</h3>
                     <span className="font-bold text-red-600 whitespace-nowrap ml-4">PKR {(item.price * item.quantity).toFixed(0)}</span>
                   </div>
                   <div className="text-xs text-gray-600 font-bold bg-gray-200 self-start px-2 py-1 rounded">
@@ -222,8 +222,8 @@ export default function CheckoutPage() {
           </div>
 
           <div className="flex items-end justify-between">
-            <span className="font-peace-sans text-3xl tracking-widest text-black">TOTAL BILL</span>
-            <span className="font-peace-sans text-5xl tracking-widest text-red-600">PKR {totalBill.toFixed(0)}</span>
+            <span className="font-heading font-extrabold text-3xl tracking-widest text-black">TOTAL BILL</span>
+            <span className="font-heading font-extrabold text-5xl tracking-widest text-red-600">PKR {totalBill.toFixed(0)}</span>
           </div>
         </div>
 
@@ -231,7 +231,7 @@ export default function CheckoutPage() {
         <div className="space-y-4 mb-12">
           <button 
             onClick={handleWhatsAppOrder}
-            className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-peace-sans text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase"
+            className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-heading font-extrabold text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.011 0C5.385 0 0 5.385 0 12.011c0 2.115.553 4.148 1.583 5.952L.15 23.197l5.358-1.405A11.966 11.966 0 0 0 12.01 24c6.626 0 12.011-5.385 12.011-12.011S18.636 0 12.011 0zm0 22.023c-1.802 0-3.567-.482-5.115-1.401l-.367-.217-3.799.996 1.01-3.702-.238-.378a10.024 10.024 0 0 1-1.527-5.334c0-5.54 4.509-10.048 10.036-10.048 5.54 0 10.048 4.509 10.048 10.048 0 5.54-4.508 10.048-10.048 10.048zm5.542-7.531c-.304-.152-1.794-.886-2.072-.988-.278-.102-.482-.152-.684.152-.203.304-.786.988-.962 1.191-.177.203-.355.228-.659.076-1.464-.73-2.529-1.397-3.486-2.736-.254-.356.126-.33.722-1.523.076-.152.038-.28-.018-.432-.056-.152-.684-1.648-.938-2.256-.247-.594-.498-.514-.684-.524-.178-.009-.381-.01-.584-.01a1.118 1.118 0 0 0-.81.381c-.279.304-1.064 1.04-1.064 2.535 0 1.494 1.089 2.937 1.241 3.14.152.203 2.144 3.27 5.19 4.536 2.052.853 2.76.903 3.666.76.621-.098 1.794-.733 2.047-1.444.253-.711.253-1.318.177-1.444-.076-.127-.278-.203-.582-.355z"/>
@@ -239,7 +239,7 @@ export default function CheckoutPage() {
             <span>Order via WhatsApp</span>
           </button>
           
-          <a href="tel:03353131204" className="w-full bg-red-600 hover:bg-red-700 text-white font-peace-sans text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase">
+          <a href="tel:03353131204" className="w-full bg-red-600 hover:bg-red-700 text-white font-heading font-extrabold text-2xl tracking-widest py-5 rounded-full transition-colors flex items-center justify-center space-x-3 uppercase">
             <Phone size={24} className="fill-current" />
             <span>Call: 03353131204</span>
           </a>

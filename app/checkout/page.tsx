@@ -16,8 +16,7 @@ export default function CheckoutPage() {
     instructions: ''
   });
 
-  const gst = totalPrice * 0.16;
-  const totalBill = totalPrice + gst;
+  const totalBill = totalPrice;
 
   const handleWhatsAppOrder = () => {
     if (!formData.name || !formData.phone || !formData.address) {
@@ -47,8 +46,6 @@ export default function CheckoutPage() {
     });
 
     message += `\n━━━━━━━━━━━━━━━\n\n`;
-    message += `💰 SUBTOTAL: PKR ${totalPrice.toFixed(0)}\n`;
-    message += `🧾 G.S.T (16%): PKR ${gst.toFixed(0)}\n`;
     message += `✅ TOTAL: PKR ${totalBill.toFixed(0)}\n`;
     message += `\n━━━━━━━━━━━━━━━`;
 
@@ -208,12 +205,8 @@ export default function CheckoutPage() {
 
           <div className="space-y-4 mb-8 border-b border-gray-200 pb-8">
             <div className="flex justify-between text-sm font-bold tracking-wider text-gray-500">
-              <span>SUBTOTAL</span>
+              <span>ORDER AMOUNT</span>
               <span className="text-black">PKR {totalPrice.toFixed(0)}</span>
-            </div>
-            <div className="flex justify-between text-sm font-bold tracking-wider text-gray-500">
-              <span>G.S.T (16%)</span>
-              <span className="text-black">PKR {gst.toFixed(0)}</span>
             </div>
             <div className="flex justify-between text-sm font-bold tracking-wider text-gray-500">
               <span>SHIPPING</span>

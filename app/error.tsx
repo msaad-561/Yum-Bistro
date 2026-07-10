@@ -17,7 +17,7 @@ export default function Error({
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4">
       <div className="text-center max-w-md">
-        <h2 className="text-2xl font-bold font-heading mb-4 text-red-600">Something went wrong</h2>
+        <h2 className="text-2xl font-bold font-peace-sans mb-4 text-red-600">Something went wrong</h2>
         <p className="text-gray-600 mb-8 font-sans">
           We apologize for the inconvenience. Our team has been notified.
         </p>

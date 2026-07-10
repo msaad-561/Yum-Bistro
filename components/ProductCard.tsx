@@ -25,16 +25,22 @@ export function ProductCard({ id, name, description, price, image }: ProductCard
     <>
       <div className="bg-white rounded-2xl overflow-hidden flex flex-col h-full shadow-sm border border-gray-100">
         <div className="relative aspect-square w-full sm:aspect-[4/3] bg-gray-50">
-          <Image
-            src={image}
-            alt={name}
-            fill
-            className="object-cover"
-            // Product images are below-the-fold — lazy load to improve LCP
-            loading="lazy"
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            referrerPolicy="no-referrer"
-          />
+          {image ? (
+            <Image
+              src={image}
+              alt={name}
+              fill
+              className="object-cover"
+              // Product images are below-the-fold — lazy load to improve LCP
+              loading="lazy"
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+              referrerPolicy="no-referrer"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+              <span className="text-4xl">🍽️</span>
+            </div>
+          )}
           <button
             aria-label={`Add ${name} to favourites`}
             className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm p-2 rounded-full hover:bg-white transition-colors shadow-sm"

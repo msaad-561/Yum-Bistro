@@ -30,7 +30,13 @@ export function ProductModal({ product, onClose }: any) {
       >
         {/* Header Image */}
         <div className="relative w-full aspect-video bg-gray-100 shrink-0">
-          <Image src={product.image} alt={product.name} fill className="object-cover" referrerPolicy="no-referrer" />
+          {product.image ? (
+            <Image src={product.image} alt={product.name} fill className="object-cover" referrerPolicy="no-referrer" />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+              <span className="text-6xl">🍽️</span>
+            </div>
+          )}
           <button onClick={onClose} className="absolute top-4 right-4 bg-black/50 hover:bg-black/70 transition-colors p-2 rounded-full text-white backdrop-blur-sm z-10">
             <X size={20} />
           </button>

@@ -58,7 +58,7 @@ export function CategorySections({ categories, items }: CategorySectionsProps) {
                 }}
                 className="mb-16 scroll-mt-[160px]"
               >
-                <h2 className="font-gulfs text-5xl text-black tracking-widest text-center mb-6 uppercase">
+                <h2 className="font-peace-sans font-bold text-5xl text-black tracking-widest text-center mb-6 uppercase">
                   {category.title}
                 </h2>
 

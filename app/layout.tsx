@@ -45,6 +45,8 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         {/* Preconnect to Google Fonts CDN to reduce font load latency */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Preconnect to jsDelivr for Peace Sans font */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
       </head>
       <body
         className="bg-white bg-[url('/site-bg.png')] bg-cover bg-fixed bg-center text-black font-sans antialiased"

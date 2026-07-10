@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   images: {
     // Enable modern image formats for automatic conversion
     formats: ['image/avif', 'image/webp'],
+    // Optimised breakpoints matching the product-card grid (2-col → 3-col → 4-col)
+    deviceSizes: [640, 768, 1024, 1280, 1536],
+    imageSizes: [128, 256, 384],
     // Declare allowed quality values (required in Next.js 16+)
     qualities: [75, 85, 90, 100],
     // Aggressive browser-side caching: 1 year for optimized images

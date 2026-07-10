@@ -25,36 +25,36 @@ export const MENU_ITEMS = [
   // ── Starters ──
   { categoryId: "starters", id: "chicken-cheese-strips", name: "Chicken Cheese Strips", description: "Crispy chicken strips loaded with melted cheese", price: 1395, image: "/images/products/Chicken Cheese Strips.jpg" },
   { categoryId: "starters", id: "spicy-honey-wings", name: "Spicy Honey Wings", description: "Crispy wings tossed in a sweet & spicy honey glaze", price: 1295, image: "/images/products/Spicy Honey wings.jpg" },
-  { categoryId: "starters", id: "dynamite-chicken", name: "Dynamite Chicken", description: "Crispy chicken bites in a fiery dynamite sauce", price: 1195, image: "" },
-  { categoryId: "starters", id: "honey-prawns", name: "Honey Prawns", description: "Succulent prawns drizzled with golden honey glaze", price: 2995, image: "" },
-  { categoryId: "starters", id: "dynamite-prawns", name: "Dynamite Prawns", description: "Crispy prawns tossed in creamy dynamite sauce", price: 2095, image: "" },
-  { categoryId: "starters", id: "fish-and-chips", name: "Fish & Chips", description: "Golden battered fish with crispy seasoned fries", price: 2095, image: "" },
+  { categoryId: "starters", id: "dynamite-chicken", name: "Dynamite Chicken", description: "Crispy chicken bites in a fiery dynamite sauce", price: 1195, image: "/images/products/Dynamite Chicken.jpeg" },
+  { categoryId: "starters", id: "honey-prawns", name: "Honey Prawns", description: "Succulent prawns drizzled with golden honey glaze", price: 2995, image: "/images/products/Honey Prawns.jpeg" },
+  { categoryId: "starters", id: "dynamite-prawns", name: "Dynamite Prawns", description: "Crispy prawns tossed in creamy dynamite sauce", price: 2095, image: "/images/products/Dynamite Prawns.jpeg" },
+  { categoryId: "starters", id: "fish-and-chips", name: "Fish & Chips", description: "Golden battered fish with crispy seasoned fries", price: 2095, image: "/images/products/Fish and Chips.jpeg" },
   { categoryId: "starters", id: "loaded-fries", name: "Loaded Fries", description: "Crispy fries topped with cheese, sauces & toppings", price: 1095, image: "/images/products/Loaded Fires.jpeg" },
-  { categoryId: "starters", id: "plain-fries", name: "Plain Fries", description: "Classic golden crispy fries", price: 495, image: "" },
+  { categoryId: "starters", id: "plain-fries", name: "Plain Fries", description: "Classic golden crispy fries", price: 495, image: "/images/products/Plain Fries.jpeg" },
 
   // ── Healthy Bowls ──
   { categoryId: "healthy-bowls", id: "yum-bistro-special-salad", name: "Yum Bistro Special Salad", description: "Our signature salad with fresh seasonal greens", price: 995, image: "/images/products/Special Salad.jpeg" },
-  { categoryId: "healthy-bowls", id: "greek-salad", name: "Greek Salad", description: "Classic Mediterranean salad with feta & olives", price: 795, image: "" },
+  { categoryId: "healthy-bowls", id: "greek-salad", name: "Greek Salad", description: "Classic Mediterranean salad with feta & olives", price: 795, image: "/images/products/Greek Salad.jpeg" },
 
   // ── Soups Selection ──
-  { categoryId: "soups", id: "yum-bistro-special-soup", name: "Yum Bistro Special Soup", description: "Chef's signature special soup of the day", price: 695, image: "" },
-  { categoryId: "soups", id: "hot-and-sour-soup", name: "Hot & Sour Soup", description: "A tangy and spicy classic soup", price: 595, image: "" },
-  { categoryId: "soups", id: "corn-chicken-soup", name: "Corn Chicken Soup", description: "Creamy corn soup with tender chicken shreds", price: 595, image: "" },
-  { categoryId: "soups", id: "cream-of-mushroom-soup", name: "Cream of Mushroom Soup", description: "Rich and velvety mushroom cream soup", price: 595, image: "" },
+  { categoryId: "soups", id: "yum-bistro-special-soup", name: "Yum Bistro Special Soup", description: "Chef's signature special soup of the day", price: 695, image: "/images/products/Yum Bistro Special Soup.jpeg" },
+  { categoryId: "soups", id: "hot-and-sour-soup", name: "Hot & Sour Soup", description: "A tangy and spicy classic soup", price: 595, image: "/images/products/Hot and Sour Soup.jpeg" },
+  { categoryId: "soups", id: "corn-chicken-soup", name: "Corn Chicken Soup", description: "Creamy corn soup with tender chicken shreds", price: 595, image: "/images/products/Corn Chicken and Soup.jpeg" },
+  { categoryId: "soups", id: "cream-of-mushroom-soup", name: "Cream of Mushroom Soup", description: "Rich and velvety mushroom cream soup", price: 595, image: "/images/products/Cream of Mushroom Soup.jpeg" },
 
   // ── Main Course ──
   { categoryId: "main-course", id: "cordon-bleu-chicken", name: "Cordon Bleu Chicken", description: "Classic chicken stuffed with ham & cheese", price: 2095, image: "/images/products/Cordon Bleu Chicken.jpg" },
   { categoryId: "main-course", id: "parmesan-chicken", name: "Parmesan Chicken", description: "Golden chicken topped with parmesan crust", price: 2095, image: "/images/products/Parmesan Chicken.jpeg" },
   { categoryId: "main-course", id: "moroccan-chicken", name: "Moroccan Chicken", description: "Aromatic spiced chicken with Moroccan flavors", price: 1795, image: "/images/products/Morrocon Chicekn steak.jpeg" },
   { categoryId: "main-course", id: "wild-mushroom-chicken", name: "Wild Mushroom Chicken", description: "Tender chicken in rich wild mushroom sauce", price: 1795, image: "/images/products/wild mushroom steak.jpeg" },
-  { categoryId: "main-course", id: "tarragon-chicken", name: "Tarragon Chicken", description: "Herb-infused chicken with creamy tarragon sauce", price: 1795, image: "" },
-  { categoryId: "main-course", id: "mexican-chicken", name: "Mexican Chicken", description: "Spicy Mexican-style chicken with bold flavors", price: 1795, image: "" },
-  { categoryId: "main-course", id: "cashew-nut-chicken", name: "Cashew Nut Chicken", description: "Stir-fried chicken with roasted cashew nuts", price: 1895, image: "" },
+  { categoryId: "main-course", id: "tarragon-chicken", name: "Tarragon Chicken", description: "Herb-infused chicken with creamy tarragon sauce", price: 1795, image: "/images/products/Tarragon Chicken.jpeg" },
+  { categoryId: "main-course", id: "mexican-chicken", name: "Mexican Chicken", description: "Spicy Mexican-style chicken with bold flavors", price: 1795, image: "/images/products/Mexican Chicken.jpeg" },
+  { categoryId: "main-course", id: "cashew-nut-chicken", name: "Cashew Nut Chicken", description: "Stir-fried chicken with roasted cashew nuts", price: 1895, image: "/images/products/Cashew nut Chicken.jpg" },
   { categoryId: "main-course", id: "dragon-walnut-chicken", name: "Dragon Walnut Chicken", description: "Crispy chicken with caramelized walnuts", price: 1895, image: "/images/products/Dragon Walnut Chicken with Egg Fried Rice.jpg" },
-  { categoryId: "main-course", id: "chicken-hot-garlic-sauce", name: "Chicken with Hot Garlic Sauce", description: "Tender chicken in a bold hot garlic sauce", price: 1695, image: "" },
-  { categoryId: "main-course", id: "barbecue-chicken", name: "Barbecue Chicken", description: "Smoky BBQ glazed chicken", price: 1695, image: "" },
-  { categoryId: "main-course", id: "chicken-chilli-dry", name: "Chicken Chilli Dry", description: "Wok-tossed chicken with green chillies & peppers", price: 1695, image: "" },
-  { categoryId: "main-course", id: "oyster-chicken", name: "Oyster Chicken", description: "Succulent chicken in rich oyster sauce", price: 1695, image: "" },
+  { categoryId: "main-course", id: "chicken-hot-garlic-sauce", name: "Chicken with Hot Garlic Sauce", description: "Tender chicken in a bold hot garlic sauce", price: 1695, image: "/images/products/Chicken With Hot Garlic.jpeg" },
+  { categoryId: "main-course", id: "barbecue-chicken", name: "Barbecue Chicken", description: "Smoky BBQ glazed chicken", price: 1695, image: "/images/products/Barbecue Chicken.jpeg" },
+  { categoryId: "main-course", id: "chicken-chilli-dry", name: "Chicken Chilli Dry", description: "Wok-tossed chicken with green chillies & peppers", price: 1695, image: "/images/products/Chicken Chili Dry.jpeg" },
+  { categoryId: "main-course", id: "oyster-chicken", name: "Oyster Chicken", description: "Succulent chicken in rich oyster sauce", price: 1695, image: "/images/products/Oyster Chicken.jpeg" },
 
   // ── Prime Cuts ──
   { categoryId: "prime-cuts", id: "premium-sirloin-steak", name: "Premium Sirloin Steak", description: "Premium cut sirloin, grilled to perfection", price: 4795, image: "/images/products/Sirloin Steak.jpeg" },
@@ -70,59 +70,59 @@ export const MENU_ITEMS = [
 
   // ── Pastas ──
   { categoryId: "pasta", id: "linguine-pasta", name: "Linguine Pasta", description: "Al dente linguine in a rich savory sauce", price: 1495, image: "/images/products/linguine pasta.jpeg" },
-  { categoryId: "pasta", id: "olive-garden-pasta", name: "Olive Garden Pasta", description: "Creamy pasta with olives, herbs & garden vegetables", price: 1595, image: "" },
+  { categoryId: "pasta", id: "olive-garden-pasta", name: "Olive Garden Pasta", description: "Creamy pasta with olives, herbs & garden vegetables", price: 1595, image: "/images/products/Olive Garden Pasta.jpeg" },
 
   // ── Desserts ──
   { categoryId: "dessert", id: "nutella-crepes", name: "Nutella Crepes", description: "Warm crepes drizzled with Nutella & toppings", price: 995, image: "/images/products/Nutelle Crepes.jpg" },
   { categoryId: "dessert", id: "lotus-bomb", name: "Lotus Bomb", description: "Indulgent Lotus Biscoff dessert bomb", price: 1195, image: "/images/products/ice cream.jpeg" },
-  { categoryId: "dessert", id: "melting-brownies", name: "Melting Brownies", description: "Warm gooey chocolate brownies", price: 1095, image: "" },
+  { categoryId: "dessert", id: "melting-brownies", name: "Melting Brownies", description: "Warm gooey chocolate brownies", price: 1095, image: "/images/products/Melting Brownies.jpeg" },
 
   // ── Hot Coffee ──
   { categoryId: "hot-coffee", id: "espresso-single-shot", name: "Espresso (Single Shot)", description: "Rich and bold single espresso shot", price: 295, image: "/images/products/espresso single shot.jpeg" },
   { categoryId: "hot-coffee", id: "espresso-double-shot", name: "Espresso (Double Shot)", description: "Double the intensity, double the flavor", price: 395, image: "/images/products/esspresso double shot.jpeg" },
-  { categoryId: "hot-coffee", id: "americano", name: "Americano", description: "Classic espresso diluted with hot water", price: 395, image: "" },
-  { categoryId: "hot-coffee", id: "cafe-latte", name: "Café Latte", description: "Smooth espresso with steamed milk", price: 495, image: "" },
+  { categoryId: "hot-coffee", id: "americano", name: "Americano", description: "Classic espresso diluted with hot water", price: 395, image: "/images/products/americano.jpeg" },
+  { categoryId: "hot-coffee", id: "cafe-latte", name: "Café Latte", description: "Smooth espresso with steamed milk", price: 495, image: "/images/products/Cafe Latte.jpeg" },
   { categoryId: "hot-coffee", id: "cappuccino", name: "Cappuccino", description: "Espresso topped with frothy steamed milk", price: 495, image: "/images/products/cappuccino.jpeg" },
 
   // ── Flavoured Hot & Iced Coffee ──
   { categoryId: "flavoured-coffee", id: "caramel-latte", name: "Caramel Latte", description: "Latte infused with rich caramel syrup", price: 695, image: "/images/products/flavoured coffee.jpeg" },
-  { categoryId: "flavoured-coffee", id: "vanilla-latte", name: "Vanilla Latte", description: "Smooth latte with vanilla flavoring", price: 695, image: "" },
-  { categoryId: "flavoured-coffee", id: "hazelnut-latte", name: "Hazelnut Latte", description: "Nutty hazelnut-infused latte", price: 695, image: "" },
-  { categoryId: "flavoured-coffee", id: "irish-latte", name: "Irish Latte", description: "Irish cream flavored latte", price: 695, image: "" },
-  { categoryId: "flavoured-coffee", id: "spanish-latte", name: "Spanish Latte", description: "Sweet condensed milk latte", price: 695, image: "" },
-  { categoryId: "flavoured-coffee", id: "mochaccino-latte", name: "Mochaccino Latte", description: "Chocolate-infused espresso latte", price: 695, image: "" },
+  { categoryId: "flavoured-coffee", id: "vanilla-latte", name: "Vanilla Latte", description: "Smooth latte with vanilla flavoring", price: 695, image: "/images/products/Vanilla Latte.jpeg" },
+  { categoryId: "flavoured-coffee", id: "hazelnut-latte", name: "Hazelnut Latte", description: "Nutty hazelnut-infused latte", price: 695, image: "/images/products/Hazelnut Latte.jpeg" },
+  { categoryId: "flavoured-coffee", id: "irish-latte", name: "Irish Latte", description: "Irish cream flavored latte", price: 695, image: "/images/products/Irish Latte.jpeg" },
+  { categoryId: "flavoured-coffee", id: "spanish-latte", name: "Spanish Latte", description: "Sweet condensed milk latte", price: 695, image: "/images/products/Spanish Latte.jpeg" },
+  { categoryId: "flavoured-coffee", id: "mochaccino-latte", name: "Mochaccino Latte", description: "Chocolate-infused espresso latte", price: 695, image: "/images/products/Mochaccino Latte.jpg" },
 
   // ── Frappes ──
   { categoryId: "frappes", id: "very-vanilla-frappe", name: "Very Vanilla Frappe", description: "Icy blended vanilla frappe", price: 795, image: "/images/products/frappe.jpeg" },
-  { categoryId: "frappes", id: "mochaccino-frappe", name: "Mochaccino Frappe", description: "Blended chocolate mocha frappe", price: 795, image: "" },
-  { categoryId: "frappes", id: "cookies-and-cream-frappe", name: "Cookies & Cream Frappe", description: "Creamy cookies and cream blended frappe", price: 795, image: "" },
-  { categoryId: "frappes", id: "white-chocolate-caramel-frappe", name: "White Chocolate Caramel Frappe", description: "White chocolate and caramel blended delight", price: 795, image: "" },
+  { categoryId: "frappes", id: "mochaccino-frappe", name: "Mochaccino Frappe", description: "Blended chocolate mocha frappe", price: 795, image: "/images/products/Mochaccino Frappe.jpg" },
+  { categoryId: "frappes", id: "cookies-and-cream-frappe", name: "Cookies & Cream Frappe", description: "Creamy cookies and cream blended frappe", price: 795, image: "/images/products/Cookies & Cream Frappe.jpeg" },
+  { categoryId: "frappes", id: "white-chocolate-caramel-frappe", name: "White Chocolate Caramel Frappe", description: "White chocolate and caramel blended delight", price: 795, image: "/images/products/White Chocolate Caramel Frappe.jpeg" },
 
   // ── Chillers ──
   { categoryId: "chillers", id: "wildberry-chiller", name: "Wildberry Chiller", description: "Refreshing wildberry iced drink", price: 595, image: "/images/products/seasonal juices.jpg" },
-  { categoryId: "chillers", id: "strawberry-chiller", name: "Strawberry Chiller", description: "Sweet strawberry chilled drink", price: 595, image: "" },
-  { categoryId: "chillers", id: "mango-passion-chiller", name: "Mango Passion Chiller", description: "Tropical mango and passionfruit chiller", price: 595, image: "" },
-  { categoryId: "chillers", id: "american-passion-chiller", name: "American Passion Chiller", description: "Fruity American-style passion chiller", price: 595, image: "" },
+  { categoryId: "chillers", id: "strawberry-chiller", name: "Strawberry Chiller", description: "Sweet strawberry chilled drink", price: 595, image: "/images/products/Strawberry Chiller.jpeg" },
+  { categoryId: "chillers", id: "mango-passion-chiller", name: "Mango Passion Chiller", description: "Tropical mango and passionfruit chiller", price: 595, image: "/images/products/Mango Passion Chiller.jpeg" },
+  { categoryId: "chillers", id: "american-passion-chiller", name: "American Passion Chiller", description: "Fruity American-style passion chiller", price: 595, image: "/images/products/American Passion Chiller.jpg" },
 
   // ── Sodas ──
-  { categoryId: "sodas", id: "apple-kiwi-soda", name: "Apple Kiwi Soda", description: "Fizzy apple and kiwi soda", price: 595, image: "" },
-  { categoryId: "sodas", id: "blue-bloom", name: "Blue Bloom", description: "Vibrant blue floral soda", price: 595, image: "" },
-  { categoryId: "sodas", id: "strawberry-lemonade", name: "Strawberry Lemonade", description: "Sweet strawberry lemonade with a fizz", price: 595, image: "" },
-  { categoryId: "sodas", id: "moon-fizz", name: "Moon Fizz", description: "Sparkling citrus moon fizz", price: 595, image: "" },
-  { categoryId: "sodas", id: "peach-soda", name: "Peach Soda", description: "Refreshing peach-flavored soda", price: 595, image: "" },
-  { categoryId: "sodas", id: "black-magic-soda", name: "Black Magic Soda", description: "Dark and mysterious charcoal soda", price: 595, image: "" },
+  { categoryId: "sodas", id: "apple-kiwi-soda", name: "Apple Kiwi Soda", description: "Fizzy apple and kiwi soda", price: 595, image: "/images/products/Apple Kiwi Soda.jpeg" },
+  { categoryId: "sodas", id: "blue-bloom", name: "Blue Bloom", description: "Vibrant blue floral soda", price: 595, image: "/images/products/Blue Bloom.jpg" },
+  { categoryId: "sodas", id: "strawberry-lemonade", name: "Strawberry Lemonade", description: "Sweet strawberry lemonade with a fizz", price: 595, image: "/images/products/Strawberry Lemonade.jpeg" },
+  { categoryId: "sodas", id: "moon-fizz", name: "Moon Fizz", description: "Sparkling citrus moon fizz", price: 595, image: "/images/products/Moon Fizz soda.jpeg" },
+  { categoryId: "sodas", id: "peach-soda", name: "Peach Soda", description: "Refreshing peach-flavored soda", price: 595, image: "/images/products/Peach Soda.jpeg" },
+  { categoryId: "sodas", id: "black-magic-soda", name: "Black Magic Soda", description: "Dark and mysterious charcoal soda", price: 595, image: "/images/products/Black Magic Soda.jpeg" },
 
   // ── Shakes ──
   { categoryId: "shakes", id: "berry-burst", name: "Berry Burst", description: "Mixed berry milkshake", price: 595, image: "/images/products/Shakes.jpeg" },
-  { categoryId: "shakes", id: "vanilla-shake", name: "Vanilla Shake", description: "Classic creamy vanilla milkshake", price: 595, image: "" },
-  { categoryId: "shakes", id: "caramel-shake", name: "Caramel Shake", description: "Rich caramel milkshake", price: 595, image: "" },
-  { categoryId: "shakes", id: "oreo-cream-shake", name: "Oreo Cream Shake", description: "Oreo cookie cream milkshake", price: 595, image: "" },
-  { categoryId: "shakes", id: "chocolate-shake", name: "Chocolate Shake", description: "Decadent chocolate milkshake", price: 595, image: "" },
+  { categoryId: "shakes", id: "vanilla-shake", name: "Vanilla Shake", description: "Classic creamy vanilla milkshake", price: 595, image: "/images/products/Vanilla Shake.jpg" },
+  { categoryId: "shakes", id: "caramel-shake", name: "Caramel Shake", description: "Rich caramel milkshake", price: 595, image: "/images/products/Caramel Shake.jpeg" },
+  { categoryId: "shakes", id: "oreo-cream-shake", name: "Oreo Cream Shake", description: "Oreo cookie cream milkshake", price: 595, image: "/images/products/Oreo Cream Shake.jpg" },
+  { categoryId: "shakes", id: "chocolate-shake", name: "Chocolate Shake", description: "Decadent chocolate milkshake", price: 595, image: "/images/products/Chocolate Shake.jpg" },
 
   // ── Traditional ──
   { categoryId: "traditional", id: "mint-margarita", name: "Mint Margarita", description: "Classic refreshing mint margarita", price: 295, image: "/images/products/homemade mint margarita.jpg" },
   { categoryId: "traditional", id: "fresh-lime", name: "Fresh Lime", description: "Freshly squeezed lime drink", price: 295, image: "/images/products/lime.jpeg" },
-  { categoryId: "traditional", id: "mint-and-soda", name: "Mint & Soda", description: "Cool mint with sparkling soda", price: 295, image: "" },
+  { categoryId: "traditional", id: "mint-and-soda", name: "Mint & Soda", description: "Cool mint with sparkling soda", price: 295, image: "/images/products/Mint & Soda.jpeg" },
 
   // ── Deals ──
   { categoryId: "deals", id: "deal-1", name: "Deal #1", description: "1 Zinger Burger, 1 Small Pizza, 1 Small Fries, 2 Regular Drinks", price: 995, image: "" },
